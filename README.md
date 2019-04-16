@@ -1,5 +1,10 @@
 # config
 
+Add libraries to project: 
+
+* eslint
+- eslint
+
 Add rules for settings in **Visual Studio Code:**
 
 ```  "eslint.enable": true,
@@ -27,8 +32,8 @@ Add rules for settings in **Visual Studio Code:**
     "vetur.format.defaultFormatter.js": "prettier",
     "vetur.format.defaultFormatter.html": "prettier",
     "vetur.format.defaultFormatter.css": "prettier",
-    "editor.formatOnSave": true```
-    
+    "editor.formatOnSave": true
+```
     
 **.eslintrc.js:
 
@@ -55,8 +60,8 @@ Add rules for settings in **Visual Studio Code:**
   // add your custom rules here
   rules: {
   }
-}```
-
+}
+```
 
 **.prettierrc.json
 
@@ -71,4 +76,5 @@ Add rules for settings in **Visual Studio Code:**
   "arrowParens": "always",
   "trailingComma": "es5",
   "jsxBracketSameLine": true
-}```
+}
+```
