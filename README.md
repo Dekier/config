@@ -3,7 +3,18 @@
 Add libraries to project: 
 
 * eslint
-- eslint
+* eslint-config-prettier
+* eslint-config-standard
+* eslint-loader
+* eslint-plugin-import
+* eslint-plugin-jest
+* eslint-plugin-node
+* eslint-plugin-nuxt
+* eslint-plugin-prettier
+* eslint-plugin-promise
+* eslint-plugin-standard
+* eslint-plugin-vue
+* prettier
 
 Add rules for settings in **Visual Studio Code:**
 
