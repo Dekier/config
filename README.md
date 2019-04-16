@@ -1,6 +1,6 @@
 # config
 
-Add rules for settings in visual studio code:
+Add rules for settings in **Visual Studio Code:**
 
 ```  "eslint.enable": true,
     "eslint.run": "onType",
@@ -28,3 +28,47 @@ Add rules for settings in visual studio code:
     "vetur.format.defaultFormatter.html": "prettier",
     "vetur.format.defaultFormatter.css": "prettier",
     "editor.formatOnSave": true```
+    
+    
+**.eslintrc.js:
+
+```module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true
+  },
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
+  extends: [
+    '@nuxtjs',
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/vue'
+  ],
+  plugins: [
+    'prettier',
+    'vue'
+  ],
+  // add your custom rules here
+  rules: {
+  }
+}```
+
+
+**.prettierrc.json
+
+```{
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "trailingComma": "es5",
+  "jsxBracketSameLine": true
+}```
