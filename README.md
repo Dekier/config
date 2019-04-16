@@ -46,7 +46,7 @@ Add rules for settings in **Visual Studio Code:**
     "editor.formatOnSave": true
 ```
     
-**.eslintrc.js:
+**.eslintrc.js:**
 
 ```module.exports = {
   root: true,
@@ -74,7 +74,7 @@ Add rules for settings in **Visual Studio Code:**
 }
 ```
 
-**.prettierrc.json
+**.prettierrc.json **
 
 ```{
   "jsxSingleQuote": true,
